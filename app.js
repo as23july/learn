@@ -4,3 +4,4 @@ const url = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/s
 request({ url: url, json: true}, (error, response) => {
     console.log(response.body.currentConditions)
 })
+// new
